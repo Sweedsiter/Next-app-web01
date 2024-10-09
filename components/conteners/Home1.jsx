@@ -2,11 +2,18 @@ import AutoSlick from "./AutoSlick";
 export default function Home1() {
   return (
     <div className="px-2 desktop:px-60  flex justify-center items-center flex-col relative">
-      <video
+      {/* <video
         loop
         autoPlay
         muted
         src={require("../../public/backgVideo.mp4")}
+        className=""
+      /> */}
+      <video
+        loop
+        autoPlay
+        muted
+        src="https://videocdn.cdnpk.net/videos/6df7325c-b0c6-49da-a6ad-5fc4d1c3d1fd/horizontal/previews/clear/large.mp4?token=exp=1728463638~hmac=ae599bef0ae8b76524d8087a342becf402a9d407f8a26807b446b6c25bf64aca"
         className=""
       />
       <div className="desktop:absolute flex flex-row flex-wrap items-center  justify-center">
