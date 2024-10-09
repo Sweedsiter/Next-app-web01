@@ -15,9 +15,7 @@ const config: Config = {
       },
       screens: {
         tablet: "100",
-        // => @media (min-width: 640px) { ... }
         desktop: "600px",
-        // => @media (min-width: 1280px) { ... }
       },
     },
   },
