@@ -48,7 +48,7 @@ function AutoSlick() {
         <div className=" p-1 flex flex-col justify-center">
           <div className="duration-300 border p-3 hover:bg-slate-900 hover:text-slate-100 desktop:bg-slate-100">
             <Image
-              src="/boo02.jpg"
+              src="/boo03.jpg"
               width={500}
               height={500}
               alt="Picture of the author"
@@ -62,7 +62,7 @@ function AutoSlick() {
         <div className=" p-1 flex flex-col justify-center">
           <div className="duration-300 border p-3 hover:bg-slate-900 hover:text-slate-100 desktop:bg-slate-100">
             <Image
-              src="/boo02.jpg"
+              src="/boss01.jpg"
               width={500}
               height={500}
               alt="Picture of the author"

@@ -13,7 +13,7 @@ export default function Home1() {
         loop
         autoPlay
         muted
-        src="https://videocdn.cdnpk.net/videos/e5e20d0f-c29b-4fde-9cb3-7d0ebc0c2f7f/horizontal/previews/clear/large.mp4?token=exp=1728467661~hmac=8f140b5714b736faf230121098faa176d0f8f3e2c2fba9d79459aa042d08c86b"
+        src="https://videos.pexels.com/video-files/1739010/1739010-hd_1920_1080_30fps.mp4"
         className="w-full"
       />
 
