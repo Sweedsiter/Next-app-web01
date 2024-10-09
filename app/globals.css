@@ -1,0 +1,26 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mobile {
+  visibility: hidden;
+  position: absolute;
+}
+@media only screen and (max-width: 600px) {
+  .mobile {
+    visibility: visible;
+    position: relative;
+  }
+  .lebtop {
+    visibility: hidden;
+    position: absolute;
+  }
+}
