@@ -1,7 +1,7 @@
 import AutoSlick from "./AutoSlick";
 export default function Home1() {
   return (
-    <div className="px-2 desktop:px-60  flex justify-center items-center flex-col relative">
+    <div className="p-2 flex justify-center items-center flex-col relative desktop:border rounded-2xl bg-white desktop:drop-shadow-lg">
       {/* <video
         loop
         autoPlay
@@ -14,7 +14,7 @@ export default function Home1() {
         autoPlay
         muted
         src="https://videos.pexels.com/video-files/1739010/1739010-hd_1920_1080_30fps.mp4"
-        className="w-full"
+        className="w-full rounded-2xl"
       />
 
       <div className="desktop:absolute flex flex-row flex-wrap items-center  justify-center">

@@ -3,6 +3,12 @@
 import Link from "next/link";
 import { useState } from "react";
 import { FaBars, FaWindowClose } from "react-icons/fa";
+import { IoHomeOutline } from "react-icons/io5";
+import { AiOutlineProduct } from "react-icons/ai";
+import { MdOutlineRoundaboutRight } from "react-icons/md";
+import { IoIosContact } from "react-icons/io";
+
+import NavLinks from "@/components/conteners/NavLinks";
 
 export default function Navbar() {
   const [Status, setStatus] = useState(null);
@@ -10,30 +16,7 @@ export default function Navbar() {
   const NavCom = () => {
     return (
       <ul className="flex flex-col p-2 " onClick={() => setStatus(null)}>
-        <Link
-          href={"/"}
-          className="py-2 hover:text-red-900 hover:font-semibold hover:bg-slate-300 hover:pl-2 duration-300 "
-        >
-          Home
-        </Link>
-        <Link
-          className="py-2 hover:text-red-900 hover:font-semibold hover:bg-slate-300 hover:pl-2 duration-300 "
-          href={"/products"}
-        >
-          Product
-        </Link>
-        <Link
-          className="py-2 hover:text-red-900 hover:font-semibold hover:bg-slate-300 hover:pl-2 duration-300 "
-          href={"/about"}
-        >
-          About
-        </Link>
-        <Link
-          className="py-2 hover:text-red-900 hover:font-semibold hover:bg-slate-300 hover:pl-2 duration-300 "
-          href={"/contact"}
-        >
-          Contact
-        </Link>
+        <NavLinks />
         <span
           onClick={() => setStatus(null)}
           className="flex flex-row justify-center items-center bg-slate-300 text-slate-900 p-1 mt-1"
@@ -47,7 +30,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="w-full flex flex-row justify-between sticky top-0 p-3  items-center text-slate-900 delay-600 desktop:px-60 duration-300 ">
+      <nav className="desktop:border bg-white desktop:drop-shadow-lg rounded-2xl flex flex-row justify-between sticky top-0 p-3  items-center text-slate-900 delay-600 desktop:mx-60 desktop:mt-2  duration-300 ">
         <div>
           <Link
             href={"/"}
@@ -57,30 +40,33 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="lebtop">
-          <ul>
+          <ul className="flex  flex-row">
             <Link
               href={"/"}
-              className="duration-200 hover:underline underline-offset-8 decoration-2 hover:text-orange-600 hover:font-bold "
+              className="duration-200 hover:text-orange-600 hover:font-bold flex flex-row items-center "
             >
-              Home
+              <IoHomeOutline /> <span className="pl-1">Home</span>
             </Link>
             <Link
               href={"/products"}
-              className="pl-6 duration-200 hover:underline underline-offset-8 decoration-2 hover:text-orange-600 hover:font-bold "
+              className="duration-200 hover:text-orange-600 hover:font-bold flex flex-row items-center  pl-5"
             >
-              Product
+              <AiOutlineProduct />
+              <span className="pl-1">Product</span>
             </Link>
             <Link
               href={"/about"}
-              className="pl-6 duration-200 hover:underline underline-offset-8 decoration-2 hover:text-orange-600 hover:font-bold "
+              className="duration-200 hover:text-orange-600 hover:font-bold flex flex-row items-center pl-5"
             >
-              About
+              <MdOutlineRoundaboutRight />
+              <span className="pl-1">About</span>
             </Link>
             <Link
               href={"/contact"}
-              className="pl-6 duration-200 hover:underline underline-offset-8 decoration-2 hover:text-orange-600 hover:font-bold "
+              className="duration-200 hover:text-orange-600 hover:font-bold flex flex-row items-center pl-5"
             >
-              Contact
+              <IoIosContact />
+              <span className="pl-1">Contact</span>
             </Link>
           </ul>
         </div>
@@ -97,6 +83,7 @@ export default function Navbar() {
           )}
         </div>
       </nav>
+      {/* mobile Nav */}
       {Status && <NavCom />}
     </div>
   );
