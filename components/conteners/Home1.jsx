@@ -22,7 +22,7 @@ export default function Home1() {
           <h1 className="py-3 text-xl font-bold cursor-pointer duration-300 hover:text-orange-600 hover:text-2xl cursor-pointer">
             Hi My name is Peter
           </h1>
-          <span className="hover:text-base desktop:hover:font-semibold duration-300 hover:text-slate-900 text-slate-800 cursor-pointer ">
+          <span className="hover:text-base desktop:hover:font-semibold duration-300 hover:text-slate-900 hover:text-slate-300 text-slate-800 cursor-pointer ">
             สวัสดีครับ .... ผมชื่อ (ปีเตอร์) เป็นคนไทยใหญ่ ถึอสัญชาติพม่า
             บ้านเกิดผมอยู่ที่ Hsipaw ประเทศ Myanmar หมู่บ้าน (village San Pake){" "}
             <br />
