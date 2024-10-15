@@ -18,7 +18,7 @@ export default function Navbar() {
 
   const NavCom = () => {
     return (
-      <ul className="flex flex-col p-2 " onClick={() => setStatus(null)}>
+      <ul className="flex flex-col p-2  " onClick={() => setStatus(null)}>
         <NavLinks />
         <span
           onClick={() => setStatus(null)}

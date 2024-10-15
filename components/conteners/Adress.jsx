@@ -1,17 +1,17 @@
 import { GiHawkEmblem } from "react-icons/gi";
-export default function Adress() {
+
+export default function Address() {
   return (
-    <div className="py-3 flex flex-col flex-wrap w-80 m-3">
-      <h1 className="text-2xl font-semibold duration-200 hover:text-orange-600 hover:font-bold hover:pl-2">
-        Adress
+    <div className="p-3 w-80 my-1 ">
+      <h1 className="underline underline-offset-[6px] decoration-sky-500 text-2xl text-bold font-black ease-in duration-150 hover:text-orange-600">
+        Address
       </h1>
-      <div className="flex flex-row  my-3  duration-200 hover:text-orange-600 hover:pl-2">
-        <GiHawkEmblem className="text-2xl mr-2" />
-        <span className="text-xl font-medium">Dx-Adress</span>
-      </div>
-      <span className=" duration-300 hover:text-orange-600 hover:font-bold hover:pl-2">
-        Lorem ipsum dซอยเพชรเกษม 106 แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร
-        10160
+      <h3 className="flex flex-row items-center pl-0 p-3 text-lg text-orange-600 font-medium">
+        <GiHawkEmblem className="mr-2 text-3xl" />
+        Dx-emb address
+      </h3>
+      <span className="text-sm ease-in duration-150 hover:text-orange-600">
+        ซอยเพชรเกษม 106 แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160
         <br />
         <br />
         Phet Kasem 106 Nong Khang Phlu, Nong Khaem, Bangkok Thailand 10160
