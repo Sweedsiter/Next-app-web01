@@ -1,10 +1,8 @@
 import AutoSlick from "./AutoSlick";
-import Transition from "@/components/conteners/Transition";
 
 export default function Home1() {
   return (
-    <Transition>
-      <div className="p-2 flex justify-center items-center flex-col relative desktop:border rounded-2xl bg-white desktop:drop-shadow-lg">
+    <div className="p-2 flex justify-center items-center flex-col relative desktop:border rounded-2xl bg-white desktop:drop-shadow-lg">
       {/* <video
         loop
         autoPlay
@@ -22,10 +20,10 @@ export default function Home1() {
 
       <div className="desktop:absolute flex flex-row flex-wrap items-center  justify-center">
         <div className="p-3 text-left flex flex-col desktop:w-2/6">
-          <h1 className="py-3 text-xl font-bold cursor-pointer duration-300 desktop:hover:text-orange-600 hover:text-2xl cursor-pointer">
+          <h1 className="py-3 text-xl font-bold cursor-pointer duration-300 desktop:hover:text-white hover:text-2xl cursor-pointer">
             Hi My name is Peter
           </h1>
-          <span className="hover:text-base desktop:hover:font-semibold duration-300 hover:text-slate-900 hover:text-slate-300 text-slate-800 cursor-pointer ">
+          <span className="hover:text-base desktop:hover:font-semibold duration-300 desktop:hover:text-white text-slate-800 cursor-pointer ">
             สวัสดีครับ .... ผมชื่อ (ปีเตอร์) เป็นคนไทยใหญ่ ถึอสัญชาติพม่า
             บ้านเกิดผมอยู่ที่ Hsipaw ประเทศ Myanmar หมู่บ้าน (village San Pake){" "}
             <br />
@@ -44,6 +42,5 @@ export default function Home1() {
         </div>
       </div>
     </div>
-    </Transition>
   );
 }

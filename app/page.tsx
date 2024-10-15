@@ -1,5 +1,12 @@
-import HomeMain from "../components/HomeMain";
+import Home1 from "@/components/conteners/Home1";
+import Home02 from "@/components/conteners/Home02";
 
+import Transition from "@/components/conteners/Transition";
 export default function Home() {
-  return <HomeMain />;
+  return (
+    <Transition>
+      <Home1 />
+      <Home02 />
+    </Transition>
+  );
 }

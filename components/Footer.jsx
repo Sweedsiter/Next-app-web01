@@ -5,7 +5,7 @@ import FullLink from "@/components/conteners/FullLink";
 
 export default function Footer() {
   return (
-    <div className="flex flex-row flex-wrap desktop:mx-60 my-2 bg-white desktop:drop-shadow-lg rounded-2xl p-5 justify-center">
+    <div className="flex flex-row flex-wrap desktop:mx-60 mt-2 mb-4 bg-white desktop:drop-shadow-lg rounded-2xl p-5 justify-center">
       <FullLink />
       <ContactUS />
       <Adress />

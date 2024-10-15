@@ -18,7 +18,10 @@ export default function Navbar() {
 
   const NavCom = () => {
     return (
-      <ul className="flex flex-col p-2  " onClick={() => setStatus(null)}>
+      <ul
+        className="flex flex-col p-2  bg-white "
+        onClick={() => setStatus(null)}
+      >
         <NavLinks />
         <span
           onClick={() => setStatus(null)}
@@ -33,7 +36,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="desktop:border bg-white desktop:drop-shadow-lg rounded-2xl flex flex-row justify-between sticky top-0 p-3  items-center text-slate-900 delay-600 desktop:mx-60 desktop:mt-2  duration-300 ">
+      <nav className="desktop:border bg-white desktop:drop-shadow-lg rounded-2xl flex flex-row justify-between p-3  items-center text-slate-900 delay-600 desktop:mx-60 desktop:mt-2  duration-300 ">
         <div>
           <Link
             href={"/"}
