@@ -5,6 +5,7 @@ import {
   FaYoutube,
   FaMailBulk,
 } from "react-icons/fa";
+import Link from "next/link";
 
 export default function FullLinks() {
   return (
@@ -17,22 +18,30 @@ export default function FullLinks() {
         Dx-emb Links
       </h3>
       <div className="py-5 flex flex-col ">
-        <span className="pb-5  ease-in duration-150 hover:text-orange-600 hover:text-xl flex felx-row items-center">
-          <FaLine className="text-2xl" />
-          <span className="text-sm pl-3"> Line ID : Sweedsiter</span>
-        </span>
-        <span className="pb-5 ease-in duration-150 hover:text-orange-600 hover:text-xl flex felx-row items-center">
-          <FaFacebookSquare className="text-2xl" />
-          <span className="text-sm pl-3">www.facebook.com/DxEMB</span>
-        </span>
-        <span className="pb-5 ease-in duration-150 hover:text-orange-600 hover:text-xl flex felx-row items-center">
-          <FaYoutube className="text-2xl" />
-          <span className="text-sm pl-3">www.youtube.com/@saitunlu</span>
-        </span>
-        <span className="pb-5 ease-in duration-150 hover:text-orange-600 hover:text-xl flex felx-row items-center">
-          <FaMailBulk className="text-2xl" />
-          <span className="text-sm pl-3">D27saitunlu@gmaul.com</span>
-        </span>
+        <Link href={"https://line.me/ti/p/-yPHknooDV"} target="_blank">
+          <span className="pb-5  ease-in duration-150 hover:text-orange-600 hover:text-xl flex felx-row items-center">
+            <FaLine className="text-2xl" />
+            <span className="text-sm pl-3"> Line ID : Sweedsiter</span>
+          </span>
+        </Link>
+        <Link href={"https://www.facebook.com/DxEMB/"} target="_blank">
+          <span className="pb-5 ease-in duration-150 hover:text-orange-600 hover:text-xl flex felx-row items-center">
+            <FaFacebookSquare className="text-2xl" />
+            <span className="text-sm pl-3">www.facebook.com/DxEMB</span>
+          </span>
+        </Link>
+        <Link href={"https://www.youtube.com/@saitunlu"} target="_blank">
+          <span className="pb-5 ease-in duration-150 hover:text-orange-600 hover:text-xl flex felx-row items-center">
+            <FaYoutube className="text-2xl" />
+            <span className="text-sm pl-3">www.youtube.com/@saitunlu</span>{" "}
+          </span>
+        </Link>
+        <Link href={"mailto:d27saitunlu@gmail.com"} target="_blank">
+          <span className="pb-5 ease-in duration-150 hover:text-orange-600 hover:text-xl flex felx-row items-center">
+            <FaMailBulk className="text-2xl" />
+            <span className="text-sm pl-3">D27saitunlu@gmaul.com</span>{" "}
+          </span>
+        </Link>
       </div>
     </div>
   );

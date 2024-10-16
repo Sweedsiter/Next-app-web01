@@ -30,7 +30,7 @@ export default function NavLinks() {
         }
       >
         <AiOutlineProduct />
-        <span className="pl-1">Product</span>
+        <span className="pl-1">My Work</span>
       </Link>
       <Link
         href={"/about"}

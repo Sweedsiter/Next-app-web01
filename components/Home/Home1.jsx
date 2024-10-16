@@ -24,9 +24,9 @@ export default function Home1() {
             Hi My name is Dx-emb
           </h1>
           <span className="hover:text-base desktop:hover:font-semibold duration-300 desktop:hover:text-white text-slate-800 cursor-pointer ">
-            สวัสดีครับ .... ผมชื่อ (Dx-emb) เป็นคนไทยใหญ่ ชื่อไทยเรียก (ปีเตอร์)
-            ครับ ที่อยู่ปัจจุบัน บ้านเลขที่ 1005/71 ม.5 ซอยเพชรเกษม 106 แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160
-            {/* บ้านเกิดผมอยู่ที่ Hsipaw ประเทศ Myanmar หมู่บ้าน (village San Pake) */}
+            สวัสดีครับ .... ผมชื่อ Dx-emb เป็นคนไทยใหญ่ ชื่อไทยเรียก ปีเตอร์
+            ครับ <br /> ที่อยู่ปัจจุบัน ซอยเพชรเกษม 106
+            แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160
             <br />
             เรียนที่ No.1 Basic Education High School Hsipaw Myanmar
             <br />
