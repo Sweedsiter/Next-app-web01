@@ -1,4 +1,4 @@
-import AutoSlick from "./AutoSlick";
+import AutoSlick from "../conteners/AutoSlick";
 
 export default function Home1() {
   return (
