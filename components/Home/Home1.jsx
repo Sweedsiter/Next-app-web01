@@ -21,13 +21,15 @@ export default function Home1() {
       <div className="desktop:absolute flex flex-row flex-wrap items-center  justify-center">
         <div className="p-3 text-left flex flex-col desktop:w-2/6">
           <h1 className="py-3 text-xl font-bold cursor-pointer duration-300 desktop:hover:text-white hover:text-2xl cursor-pointer">
-            Hi My name is Peter
+            Hi My name is Dx-emb
           </h1>
           <span className="hover:text-base desktop:hover:font-semibold duration-300 desktop:hover:text-white text-slate-800 cursor-pointer ">
-            สวัสดีครับ .... ผมชื่อ (ปีเตอร์) เป็นคนไทยใหญ่ ถึอสัญชาติพม่า
-            บ้านเกิดผมอยู่ที่ Hsipaw ประเทศ Myanmar หมู่บ้าน (village San Pake){" "}
+            สวัสดีครับ .... ผมชื่อ (Dx-emb) เป็นคนไทยใหญ่ ชื่อไทยเรียก (ปีเตอร์)
+            ครับ ที่อยู่ปัจจุบัน บ้านเลขที่ 1005/71 ม.5 ซอยเพชรเกษม 106 แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160
+            {/* บ้านเกิดผมอยู่ที่ Hsipaw ประเทศ Myanmar หมู่บ้าน (village San Pake) */}
             <br />
-            เรียนที่ No.1 Basic Education High School Hsipaw
+            เรียนที่ No.1 Basic Education High School Hsipaw Myanmar
+            <br />
           </span>
           <button
             type="download"
