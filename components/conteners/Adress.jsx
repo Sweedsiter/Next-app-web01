@@ -2,7 +2,7 @@ import { GiHawkEmblem } from "react-icons/gi";
 
 export default function Address() {
   return (
-    <div className="p-3 w-80 my-1 ">
+    <div className="p-3 desktop:w-80 my-1 ">
       <h1 className="underline underline-offset-[6px] decoration-sky-500 text-2xl text-bold font-black ease-in duration-150 hover:text-orange-600">
         Address
       </h1>
