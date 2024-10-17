@@ -5,8 +5,10 @@ import Transition from "@/components/conteners/Transition";
 export default function Home() {
   return (
     <Transition>
-      <Home1 />
-      <Home02 />
+      <div className="p-2 flex justify-center items-center flex-col relative desktop:border rounded-2xl bg-white desktop:drop-shadow-lg">
+        <Home1 />
+        <Home02 />
+      </div>
     </Transition>
   );
 }

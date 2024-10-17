@@ -2,7 +2,7 @@ import AutoSlick from "../conteners/AutoSlick";
 
 export default function Home1() {
   return (
-    <div className="p-2 flex justify-center items-center flex-col relative desktop:border rounded-2xl bg-white desktop:drop-shadow-lg">
+    <div className=" flex justify-center items-center flex-col relative">
       {/* <video
         loop
         autoPlay
