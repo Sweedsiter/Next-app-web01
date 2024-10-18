@@ -25,8 +25,8 @@ export default function RootLayout({
         <div className="sticky top-0 z-10">
           <Navbar />
         </div>
-        <div className="desktop:flex desktop:flex-row desktop:px-60 pt-2 relative">
-          <div className="lebtop border rounded-2xl w-2/6  pb-6  p-2 mr-3 bg-white desktop:drop-shadow-lg ">
+        <div className="desktop:flex desktop:flex-row desktop:px-10 monitor:px-80 pt-2 relative">
+          <div className="lebtop border rounded-2xl w-3/6  pb-6  p-2 mr-3 bg-white desktop:drop-shadow-lg ">
             <MenuLeft />
           </div>
           <Transition> {children} </Transition>

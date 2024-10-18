@@ -36,7 +36,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="desktop:border bg-white desktop:drop-shadow-lg rounded-2xl flex flex-row justify-between p-3  items-center text-slate-900 delay-600 desktop:mx-60 desktop:mt-2  duration-300 ">
+      <nav className="desktop:border bg-white desktop:drop-shadow-lg rounded-2xl flex flex-row justify-between p-3  items-center text-slate-900 delay-600 desktop:mx-10 monitor:mx-80 desktop:mt-2  duration-300 ">
         <div>
           <Link
             href={"/"}
