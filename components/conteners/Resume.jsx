@@ -110,11 +110,7 @@ export default function Resume() {
           </h2>
           <span className="duration-150 hover:text-orange-600">
             เป็นพนักงานออกแบบ
-            <span className="text-red-700">
-              {" "}
-              Graphic-design Ai-illustrator
-            </span>{" "}
-            <br />
+            <span className="text-red-700"> Graphic-design</span> <br />
             เกี่ยวกับเสื้อผ้าภายใน
             <br />
             Nong Khang Phlu, Nong Khaem, Bangkok
