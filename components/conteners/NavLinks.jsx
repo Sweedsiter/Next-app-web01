@@ -6,6 +6,7 @@ import { AiOutlineProduct } from "react-icons/ai";
 import { MdOutlineRoundaboutRight } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
 import { usePathname } from "next/navigation";
+import ContactUS from "@/components/conteners/ContactUS";
 
 export default function NavLinks() {
   const currentPath = usePathname();
@@ -54,6 +55,9 @@ export default function NavLinks() {
         <IoIosContact />
         <span className="pl-1">Contact</span>
       </Link>
+      <br />
+      <br />
+      <ContactUS />
     </ul>
   );
 }
