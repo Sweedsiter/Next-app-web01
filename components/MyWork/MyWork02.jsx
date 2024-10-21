@@ -1,10 +1,25 @@
 "use client";
 
 import { useState } from "react";
-import Contact from "@/app/contact/page";
+
+import Location from "@/components/Contact/Location";
+import Contact02 from "@/components/Contact/Contact02";
+import Embriodery from "@/components/conteners/Embriodery";
+import Illustrator from "@/components/conteners/Illustrator";
+import Website from "@/components/conteners/Website";
 
 export default function MyWork02() {
   const [Status, setStatus] = useState("Embroidery");
+
+  function Contact() {
+    return (
+      <div className="flex w-full justify-center items-center flex-col bg-white ">
+        <Contact02 />
+        <Location />
+      </div>
+    );
+  }
+
   return (
     <div className="p-2 flex flex-col flex-warp imems-center w-full">
       <div className="flex flex-row justify-between  border flex-wrap ">
@@ -51,7 +66,23 @@ export default function MyWork02() {
       </div>
 
       {/* cards */}
-      {Status === "contact" ? <Contact /> : <div className="p-2">{Status}</div>}
+      {Status === "contact" ? (
+        <Contact />
+      ) : Status === "Embroidery" ? (
+        <div className="p-3">
+          <Embriodery />
+        </div>
+      ) : Status === "Illustrator" ? (
+        <div className="p-3">
+          <Illustrator />
+        </div>
+      ) : (
+        Status === "Website" && (
+          <div className="p-3">
+            <Website />
+          </div>
+        )
+      )}
     </div>
   );
 }
