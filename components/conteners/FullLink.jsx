@@ -9,9 +9,9 @@ import Link from "next/link";
 
 export default function FullLinks() {
   return (
-    <div className="p-3 w-80 my-1 ">
+    <div className="p-3 w-full desktop:w-60 my-1 ">
       <h1 className="underline underline-offset-[6px] decoration-sky-500 text-2xl text-bold font-black ease-in duration-150 hover:text-orange-600">
-        UseFull Links
+        Full Links
       </h1>
       <h3 className="flex flex-row items-center pl-0 p-3 text-lg text-orange-600 font-medium">
         <GiHawkEmblem className="mr-2 text-3xl" />

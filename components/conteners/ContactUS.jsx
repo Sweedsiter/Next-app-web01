@@ -31,7 +31,7 @@ export default function ContactUS() {
       );
   };
   return (
-    <div className="p-3 w-80 my-1 ">
+    <div className="p-3 w-full desktop:w-60  my-1 ">
       <h1 className="underline underline-offset-[6px] decoration-sky-500 text-2xl text-bold font-black ease-in duration-150 hover:text-orange-600">
         Contact US
       </h1>
