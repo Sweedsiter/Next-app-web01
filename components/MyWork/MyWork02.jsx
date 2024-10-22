@@ -7,16 +7,19 @@ import Contact02 from "@/components/Contact/Contact02";
 import Embriodery from "@/components/conteners/Embriodery";
 import Illustrator from "@/components/conteners/Illustrator";
 import Website from "@/components/conteners/Website";
+import Transition from "@/components/conteners/Transition";
 
 export default function MyWork02() {
   const [Status, setStatus] = useState("Embroidery");
 
   function Contact() {
     return (
-      <div className="flex w-full justify-center items-center flex-col bg-white ">
-        <Contact02 />
-        <Location />
-      </div>
+      <Transition>
+        <div className="flex w-full justify-center items-center flex-col bg-white ">
+          <Contact02 />
+          <Location />
+        </div>
+      </Transition>
     );
   }
 
