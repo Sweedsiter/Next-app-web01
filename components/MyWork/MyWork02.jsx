@@ -31,7 +31,7 @@ export default function MyWork02() {
           }
           onClick={() => setStatus("Embroidery")}
         >
-          Embroidery Click{" >>>"}
+          Embroidery
         </div>
         <div
           className={
