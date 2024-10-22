@@ -8,7 +8,7 @@ export default function Embroidery() {
   return (
     <div className="w-full h-auto flex desktop:flex-row flex-wrap justify-center desktop:px-3">
       {Data.map((e) => (
-        <Link href={e.src} target="_blank" className="p-2">      
+        <Link href={e.src} target="_blank" className="p-2">
           <Image
             src={e.src}
             width={300}
