@@ -1,35 +1,43 @@
 const Data = [
   {
-    name: "ลายปักยักษ์ลบัตร",
-    src: "/Embroidery/DLP01Print.jpg",
+    name: "Ai01",
+    src: "/Illustrator/AI01.jpg",
   },
   {
-    name: "ลายปักยักษ์",
-    src: "/Embroidery/DLP02Print.jpg",
+    name: "Ai02",
+    src: "/Illustrator/Ai02.jpg",
   },
   {
-    name: "ลายปักยักษ์ลบัตร",
-    src: "/Embroidery/DLP03Print.jpg",
+    name: "Ai03",
+    src: "/Illustrator/Ai03.jpg",
   },
   {
-    name: "ลายปักยักษ์ลบัตร",
-    src: "/Embroidery/God02Print.jpg",
+    name: "Ai04",
+    src: "/Illustrator/Ai04.jpg",
   },
   {
-    name: "ลายปักยักษ์ลบัตร",
-    src: "/Embroidery/God03Print.jpg",
+    name: "Ai05",
+    src: "/Illustrator/Ai05.jpg",
   },
   {
-    name: "ลายปัก jackiechan",
-    src: "/Embroidery/jackie chan 01 Print.jpg",
+    name: "Ai06",
+    src: "/Illustrator/Ai06.jpg",
   },
   {
-    name: "ลายปัก AungSanSuuKyi",
-    src: "/Embroidery/Aung San Suu Kyi 01 Print.jpg",
+    name: "Ai07",
+    src: "/Illustrator/Ai07.jpg",
   },
   {
-    name: "ลายปัก Human0101",
-    src: "/Embroidery/Human0101.jpg",
+    name: "Ai08",
+    src: "/Illustrator/Ai08.jpg",
+  },
+  {
+    name: "Ai09",
+    src: "/Illustrator/Ai09.jpg",
+  },
+  {
+    name: "Ai10",
+    src: "/Illustrator/Ai10.jpg",
   },
 ];
 

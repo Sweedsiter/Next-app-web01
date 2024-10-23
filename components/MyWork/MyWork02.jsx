@@ -25,6 +25,7 @@ export default function MyWork02() {
 
   return (
     <div className="p-2 flex flex-col flex-warp imems-center w-full">
+      <h1 className="p-3">ข้อมูลใช้สำหรับตัวอย่างเท่านั้น </h1>
       <div className="flex flex-row justify-between  border flex-wrap ">
         <div
           className={
