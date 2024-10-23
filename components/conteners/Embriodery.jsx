@@ -8,6 +8,10 @@ import Transition from "@/components/conteners/Transition";
 export default function Embroidery() {
   return (
     <Transition>
+      <span className="p-3 text-xl">
+        สำหรับ Embroidery Wilcom มีมากกว่าที่ลงไว้
+        เนื่องจากว่าลงไว้เพื่อสือเท่านั้น
+      </span>
       <div className="w-full h-auto flex desktop:flex-row desktop:justify-start flex-wrap justify-center items-center desktop:px-3">
         {Data.map((e, index) => (
           <Link

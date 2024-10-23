@@ -1,3 +1,4 @@
+import Link from "next/link";
 import AutoSlick from "../conteners/AutoSlick";
 
 export default function Home1() {
@@ -25,18 +26,20 @@ export default function Home1() {
           </h1>
           <span className="hover:text-base desktop:hover:font-semibold duration-300 desktop:hover:text-white text-slate-800 cursor-pointer ">
             สวัสดีครับ .... ผมชื่อ Dx-emb เป็นคนไทยใหญ่ ชื่อไทยเรียก ปีเตอร์
-            ครับ <br /> ที่อยู่ปัจจุบัน ซอยเพชรเกษม 106
-            แขวงหนองค้างพลู เขตหนองแขม กรุงเทพมหานคร 10160
+            ครับ <br /> ที่อยู่ปัจจุบัน ซอยเพชรเกษม 106 แขวงหนองค้างพลู
+            เขตหนองแขม กรุงเทพมหานคร 10160
             <br />
             เรียนที่ No.1 Basic Education High School Hsipaw Myanmar
             <br />
           </span>
-          <button
-            type="download"
-            className="border desktop:w-fit backdrop-blur-sm bg-white/30 p-2 mt-2 rounded-lg hover:bg-orange-500 duration-300 hover:font-semibold  hover:border-none hover:text-slate-100 hover:text-bold"
-          >
-            Download
-          </button>
+          <Link href={"/about"}>
+            <button
+              type="download"
+              className="border desktop:w-fit backdrop-blur-sm bg-white/30 p-2 mt-2 rounded-lg hover:bg-orange-500 duration-300 hover:font-semibold  hover:border-none hover:text-slate-100 hover:text-bold"
+            >
+              Resume
+            </button>
+          </Link>
         </div>
         {/* R */}
         <div className="desktop:w-80 desktop:ml-10 p-2 w-80">
