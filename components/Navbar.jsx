@@ -43,7 +43,7 @@ export default function Navbar() {
             className="duration-200 font-bold text-xl hover:text-orange-600 hover:text-2xl flex flex-row items-center"
           >
             <GiHawkEmblem className="text-2xl " />
-            <span className="pl-2">Dx-app</span>
+            <span className="pl-2">Dx-emb</span>
           </Link>
         </div>
         <div className="lebtop">
