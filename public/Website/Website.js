@@ -7,7 +7,7 @@ const Data = [
   {
     name: "Web ทดลอง",
     src: "/Website/We03.jpg",
-    link: "hthttps://fsv3000-sweedsiters-projects.vercel.app",
+    link: "https://www.dxebm.com/",
   },
   {
     name: "Web ทดลอง",
