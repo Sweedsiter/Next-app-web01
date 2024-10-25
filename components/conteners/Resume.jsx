@@ -1,13 +1,13 @@
 export default function Resume() {
   return (
-    <div className="my-8 flex flex-wrap  desktop:mt-8 w-fit ">
+    <div className="my-5 flex flex-wrap  desktop:mt-8 w-fit ">
       <h1 className="desktop:ml-20 underline underline-offset-[10px] decoration-sky-500 text-2xl text-bold font-black ease-in duration-150 hover:text-orange-600 mb-3 pl-2 desktop:my-8 desktop:text-4xl">
         Dx Resume
       </h1>
       {/* Cards */}
       <div className="flex flex-wrap desktop:justify-center w-full">
         {/* Card */}
-        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1">
+        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1 w-full">
           <div className="px-3 py-2  text-white text-xs bg-emerald-500 rounded-xl w-fit h-fit duration-150 hover:bg-orange-600">
             2002 - 2010
           </div>
@@ -23,7 +23,7 @@ export default function Resume() {
           </span>
         </div>
 
-        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1">
+        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1 w-full">
           <div className="px-3 py-2 text-white text-xs bg-emerald-500 rounded-xl w-fit h-fit duration-150 hover:bg-orange-600  ">
             2010 - 2019
           </div>
@@ -42,7 +42,7 @@ export default function Resume() {
           </span>
         </div>
 
-        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1">
+        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1 w-full">
           <div className="px-3 py-2  text-white text-xs bg-emerald-500 rounded-xl w-fit h-fit duration-150 hover:bg-orange-600  ">
             2019 - 2020
           </div>
@@ -60,7 +60,7 @@ export default function Resume() {
           </span>
         </div>
 
-        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1">
+        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1 w-full">
           <div className="px-3 py-2 text-white text-xs bg-emerald-500 rounded-xl w-fit h-fit duration-150 hover:bg-orange-600  ">
             2020 - 2022
           </div>
@@ -79,7 +79,7 @@ export default function Resume() {
           </span>
         </div>
 
-        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1">
+        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1 w-full">
           <div className="px-3 py-2 text-white text-xs bg-emerald-500 rounded-xl w-fit h-fit duration-150 hover:bg-orange-600  ">
             2022 - 2023
           </div>
@@ -98,7 +98,7 @@ export default function Resume() {
           </span>
         </div>
 
-        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1">
+        <div className="border p-3 rounded-2xl desktop:w-5/12 m-1 w-full">
           <div className="px-3 py-2 text-white text-xs bg-emerald-500 rounded-xl w-fit h-fit duration-150 hover:bg-orange-600  ">
             2023 - ปัจจุบัน
           </div>

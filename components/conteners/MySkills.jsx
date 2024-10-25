@@ -12,12 +12,12 @@ import { RiNextjsLine } from "react-icons/ri";
 
 export default function MySkills() {
   return (
-    <div className="my-5 p-3  w-full ">
-      <h1 className="underline underline-offset-[10px] desktop:ml-20 decoration-sky-500 text-2xl text-bold font-black ease-in duration-150 hover:text-orange-600 mb-3 pl-2 desktop:my-8 desktop:text-4xl">
+    <div className="p-3 border w-full desktop:w-5/6 rounded-2xl ">
+      <h1 className="underline underline-offset-[10px] desktop:ml-16 decoration-sky-500 text-2xl text-bold font-black ease-in duration-150 hover:text-orange-600 mb-3 pl-2 desktop:my-8 desktop:text-4xl">
         Dx Skills
       </h1>
       {/* Cards Design*/}
-      <div className=" desktop:flex flex-wrap justify-center">
+      <div className=" desktop:flex flex-wrap justify-center desktop:py-6">
         {/* Card */}
         <div className="desktop:w-5/12 m-1 border my-1 p-2 rounded-xl ">
           <div className="flex flex-row justify-between duration-300 hover:text-orange-600 py-2">
