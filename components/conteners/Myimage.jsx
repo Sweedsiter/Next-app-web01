@@ -17,15 +17,22 @@ export default function Myiamge() {
           />
         </Link>
       </div>
-      <div className="m-2 border p-3 desktop:w-82 w-fit h-full">
-        <h1 className="py-3 text-3xl">Personal information</h1>
-        <div className="flex flex-col">
-          <span className="py-2">ชื่อ : Mr. Htay Aung</span>
-          <span className="py-2">ชื่อเล่น : ปีเตอร์ / อายุ : 37</span>
-          <span className="py-2">
-            สวนสูง : 165ชม. / ศาสนา : พุทธ / น้ำนัก : 73กก / เชื่อชาติ : ไทยใหญ่
-            / สัญชาติ : พม่า{" "}
+      <div className="m-2 border p-3 desktop:w-82  h-full rounded-lg">
+        <h1 className="py-3 text-2xl font-extrabold duration-150 hover:text-orange-600">
+          Personal information
+        </h1>
+        <div className="flex flex-col w-full  duration-150 hover:text-orange-600">
+          <span className="py-2 underline decoration-dotted underline-offset-8">
+            ชื่อ : Mr. Htay Aung
           </span>
+          <span className="py-2 underline decoration-dotted underline-offset-8">
+            ชื่อเล่น : ปีเตอร์ / อายุ : 37
+          </span>
+          <span className="py-2 underline decoration-dotted underline-offset-8 leading-8">
+            สวนสูง : 165ชม. / ศาสนา : พุทธ /  น้ำนัก : 73กก / เชื่อชาติ :
+            ไทยใหญ่ / สัญชาติ : พม่า{" "}
+          </span>
+          <br />
         </div>
       </div>
     </div>
