@@ -30,6 +30,13 @@ export default function Embroidery() {
             <span className="p-3 ">{e.name}</span>
           </Link>
         ))}
+        <Link
+          className="p-2 border mx-4 bg-slate-900 text-white "
+          target="_blank"
+          href="https://drive.google.com/drive/folders/1UrGNmfSKW-NC4r1pzX25ksdToHvWicS9?usp=sharing"
+        >
+          More Design
+        </Link>
       </div>
     </Transition>
   );

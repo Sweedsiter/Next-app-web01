@@ -62,7 +62,7 @@ export default function MySkills() {
         <div className="desktop:w-5/12 m-1 border my-1 p-2 rounded-xl">
           <div className="flex flex-row justify-between duration-300 hover:text-orange-600 py-2">
             <div className="inline-block flex flex-row items-center">
-              <span className="pl-2">.Emb Wilcom Embroidery Start:2004</span>
+              <span className="pl-2">Wilcom Embroidery Start:2004</span>
             </div>
             <div>98%</div>
           </div>

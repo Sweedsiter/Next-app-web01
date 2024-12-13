@@ -31,6 +31,14 @@ export default function Illustrator() {
           </Link>
         ))}
       </div>
+      <br/>
+      <Link
+        className="p-2 border mx-4 bg-slate-900 text-white h-fit"
+        target="_blank"
+        href="https://drive.google.com/drive/folders/1MSo02sP1k7TmH9rxKSvvQoUg4qLAh-hc?usp=drive_link"
+      >
+        More Design
+      </Link>
     </Transition>
   );
 }

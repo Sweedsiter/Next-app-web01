@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AutoSlick from "../conteners/AutoSlick";
+// import AutoSlick from "../conteners/AutoSlick";
 
 export default function Home1() {
   return (
@@ -43,7 +43,7 @@ export default function Home1() {
         </div>
         {/* R */}
         <div className="desktop:w-80 desktop:ml-10 p-2 w-80">
-          <AutoSlick />
+          {/* <AutoSlick /> */}
         </div>
       </div>
     </div>
