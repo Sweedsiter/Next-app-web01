@@ -8,7 +8,6 @@ import Embriodery from "@/components/conteners/Embriodery";
 import Illustrator from "@/components/conteners/Illustrator";
 import Website from "@/components/conteners/Website";
 import Transition from "@/components/conteners/Transition";
-import DShirts from "@/components/MyWork/3DShirts";
 
 export default function MyWork02() {
   const [Status, setStatus] = useState("Embroidery");
@@ -26,7 +25,6 @@ export default function MyWork02() {
 
   return (
     <div className="p-2 flex flex-col flex-warp imems-center w-full">
-      <h1 className="p-3">ข้อมูลใช้สำหรับตัวอย่างเท่านั้น </h1>
       <div className="flex flex-row justify-between  border flex-wrap ">
         <div
           className={
@@ -38,16 +36,7 @@ export default function MyWork02() {
         >
           Embroidery
         </div>
-        <div
-          className={
-            Status === "3DShirts"
-              ? "border py-1 px-3 text-white bg-slate-900 rounded-lg  m-2"
-              : "border py-1 px-3 rounded-lg duration-300 hover:text-white hover:bg-slate-900 m-2"
-          }
-          onClick={() => setStatus("3DShirts")}
-        >
-          3DShirts
-        </div>
+
         <div
           className={
             Status === "Illustrator"
@@ -83,10 +72,6 @@ export default function MyWork02() {
       {/* cards */}
       {Status === "contact" ? (
         <Contact />
-      ) : Status === "3DShirts" ? (
-        <div className="p-3">
-          <DShirts />
-        </div>
       ) : Status === "Embroidery" ? (
         <div className="p-3">
           <Embriodery />
