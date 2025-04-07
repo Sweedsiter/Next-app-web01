@@ -67,7 +67,7 @@ export default function ContactUS() {
           </Link>
         </span>
         <span className="pr-5 text-3xl ease-in duration-150 hover:text-orange-600 hover:text-4xl">
-          <Link href={"https://www.facebook.com/DxEMB/"} target="_blank">
+          <Link href={"https://web.facebook.com/Dxebm/"} target="_blank">
             <FaFacebookSquare />
           </Link>
         </span>
