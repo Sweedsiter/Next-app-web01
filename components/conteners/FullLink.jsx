@@ -24,10 +24,10 @@ export default function FullLinks() {
             <span className="text-sm pl-3"> Line ID : Sweedsiter</span>
           </span>
         </Link>
-        <Link href={"https://www.facebook.com/DxEMB/"} target="_blank">
+        <Link href={"https://web.facebook.com/Dxebm/"} target="_blank">
           <span className="pb-5 ease-in duration-150 hover:text-orange-600 hover:text-xl flex felx-row items-center">
             <FaFacebookSquare className="text-2xl" />
-            <span className="text-sm pl-3">www.facebook.com/DxEMB</span>
+            <span className="text-sm pl-3">www.facebook.com/Dxebm</span>
           </span>
         </Link>
         <Link href={"https://www.youtube.com/@saitunlu"} target="_blank">
